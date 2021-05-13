@@ -1,0 +1,62 @@
+*{
+  margin: 5;
+  padding: 0;
+  font-family: sans serif;
+}
+
+.container{
+  height: 100vh;
+  width: 100%;
+  background-image: url(https://cdn.statically.io/img/wallpaperplay.com/walls/full/a/d/c/107596.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar{
+  width: 80%;
+  margin: auto;
+  padding: 15px;
+  display: flex;
+
+}
+
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 5px;
+}
+
+.navbar ul li a{
+  color: white;
+  font-size: 15px;
+  font-family: tahoma;
+}
+
+.content{
+  width: 100%;
+  position: absolute;
+  top: 40%;
+
+}
+
+.left-column{
+  margin-left: 25%;
+}
+
+.left-column h1{
+  font-size: 30px;
+  color: white;
+  float: left;
+}
+
+.right-column{
+  float: right;
+  width: 30px;
+  margin-right: 15%;
+  align-items: center;
+}
+
+#icon{
+
+
+}

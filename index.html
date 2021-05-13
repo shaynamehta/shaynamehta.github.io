@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+  <html>
+
+    <head>
+      <title> i miss disneyland</title>
+      <link rel="stylesheet" href="styles.css">
+
+      <body>
+        <div class="container">
+
+          <div class="navbar">
+            <ul>
+              <li><a href="carsland.html">Cars Land</a></li>
+              <li><a href="#">Disney Castle</a></li>
+              <li><a href="#">Galaxy's Edge</a></li>
+              <li><a href="#">TomorrowLand</a></li>
+            </ul>
+
+          </div>
+
+          <div class="content">
+            <div class="left-column">
+              <h1>i miss disneyland</h1>
+            </div>
+
+            <div class="right-column">
+              <p>Pixie Hollow</p>
+              <img src="images/playbutton2.png" id="icon"height=50px width=50px>
+            </div>
+          </div>
+             <audio id="mainStreet">
+               <source src="music/pixiehollow.mp3">
+             </audio>
+
+             <script>
+
+               var mainstreettheme = document.getElementById("mainStreet")
+                var icon = document.getElementById("icon")
+
+                icon.onclick = function(){
+
+                  if(mainstreettheme.paused){
+                    mainstreettheme.play();
+                    icon.src = "images/pause.png";
+
+
+                }else{
+                  mainstreettheme.pause();
+                  icon.src = "images/playbutton2.png"
+
+                    }
+                }
+
+
+             </script>
+
+
+
+        </div>
+      </body>
+
+
+    </head>
+
+
+
+
+
+
+
+
+
+
+
+
+  </html>
+</DOCTYPE>
